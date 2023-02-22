@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Cambia la presentación de la lista de productos a una disposición flexible */
+  flex-wrap: wrap; /* Permite que los productos se ajusten automáticamente al ancho de la pantalla */
+  justify-content: flex-start; /* Alinea los productos a la izquierda */
+}
+
+/* Estilos para los productos */
+li {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 250px; /* Establece el ancho del marco del producto */
+  height: 150px; /* Establece la altura del marco del producto */
+  display: inline-block; /* Hace que los productos se muestren en línea */
+  margin-right: 20px; /* Espacio entre los productos */
+  vertical-align: top; /* Alinea los productos en la parte superior */
+}
+
+li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  margin-top: 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.boton-producto {
+  display: block;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  margin-top: 10
+}
+
+.boton-producto:hover {
+  background-color: #3e8e41;
+}
+
+/* Estilos para el carrito */
+#carrito {
+  background-color: #87c1f7;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#carrito li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#total {
+  font-weight: bold;
+}
+#btn-comprar {
+  background-color: #25d366;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#btn-comprar:hover {
+  background-color: #128c7e;
+}
